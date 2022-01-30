@@ -1,0 +1,48 @@
+.team{
+    
+    &-heading{
+      margin-top: 3.5rem;
+      color: $navy;
+      font-weight: 700;
+    }
+
+    &-subheading{
+      margin-top: 2rem;
+      color: $navy;
+      font-weight: 500;
+    }
+
+    img{
+        height: 9.5em;
+        width: auto;
+    }
+
+
+    &-title{
+      font-size: 0.875rem;
+    }
+
+    span{
+        font-size: 0.875rem;
+        color: $gray-600;
+
+    }
+    
+    &-management{
+      margin-top: 5rem;
+    }
+
+    
+
+     &-description{
+       font-size: 0.75rem;
+        
+       color: $gray-600;
+       font-weight: 200;
+    }
+    
+    &-main{
+      margin-top: 2.5rem;
+    }
+   
+  }

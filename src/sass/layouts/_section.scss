@@ -1,0 +1,11 @@
+.overview{
+    background-color: red;
+    
+    &-item{
+        display:grid;
+        grid-column-start:3;
+        grid-column-end:10;
+    }
+
+
+}

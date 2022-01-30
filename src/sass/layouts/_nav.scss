@@ -1,0 +1,22 @@
+.navbar{
+    overflow: hidden;
+    position: relative;
+    
+    .nav-item{  
+        margin-left: 1rem;
+    }
+  
+   
+
+    .btn-success{
+        color: $white;
+        text-align: center;
+        width: 6.75rem;
+        height: 2rem;
+        font-size: 1rem;
+        font-weight: normal;
+        margin-left: 1rem;
+
+    }
+
+}

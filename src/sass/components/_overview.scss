@@ -1,0 +1,55 @@
+.overview{
+    p{
+        font-size: 1rem;
+        color: $gray-60;
+    }
+
+    &-description1{
+        margin-top: 3rem;
+        text-align: start;
+       
+    }
+    &-description2{
+        margin-top: 4rem;
+        text-align: start;
+       
+    }
+
+    &-description3{
+        margin-top: 1.5rem;
+        text-align: start;
+       
+    }
+
+   
+
+    &-title1, &-title2, &-title3 {
+        margin-top: 3rem;
+        color: $navy;
+        font-weight: 700;
+    }
+
+    ul{
+        
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 400;
+        color: $gray-60;
+    }
+
+     ul li::before {
+        content: "\2022"; //unicode for bullet
+        display: inline-block;
+        color: $green;
+        margin-left: -1.25rem;
+        width: 1rem;
+        font-weight: bolder;
+        height: 1rem;
+        width: 1rem;
+        border-radius: $input-border-radius;
+        margin-top: 1rem;
+       
+    }
+
+   
+}
